@@ -1,0 +1,3 @@
+namespace Kara.Services {
+
+    }

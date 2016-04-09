@@ -1,4 +1,5 @@
-<h2>Home</h2>
-<p>
-    {{controller.message}}
-</p>
+<div ng-repeat="darthVader in controller.darthVader">
+    <img src="{{darthVader.image}}" />
+{{darthVader.name}}
+{{darthVader.darkSide}}
+</div>

@@ -153,6 +153,8 @@ namespace Sarah.Migrations
 
                     b.Property<bool>("DarkSide");
 
+                    b.Property<string>("Image");
+
                     b.Property<string>("Name");
 
                     b.HasKey("Id");

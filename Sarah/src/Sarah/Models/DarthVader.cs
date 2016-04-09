@@ -10,5 +10,6 @@ namespace Sarah.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public bool DarkSide { get; set; }
+        public string Image { get; set; }
     }
 }

@@ -12,9 +12,10 @@ namespace Sarah.API
     [Route("api/[controller]")]
     public class SithController : Controller
     {
-        ApplicationDbContext _db;
+        private ApplicationDbContext _db;
         public SithController(ApplicationDbContext db)
         {
+          
             this._db = db;
         }
         // GET: api/values
